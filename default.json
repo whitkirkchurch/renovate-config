@@ -1,0 +1,21 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices",
+    ":approveMajorUpdates",
+    ":automergeLinters",
+    ":automergePatch",
+    ":automergePr",
+    ":automergeRequireAllStatusChecks",
+    ":automergeTesters",
+    ":enablePreCommit",
+    ":maintainLockFilesWeekly"
+  ],
+  "timezone": "Europe/London",
+  "platformAutomerge": true,
+  "minimumReleaseAge": "2 days",
+  "labels": ["dependencies"],
+  "vulnerabilityAlerts": {
+    "addLabels": ["security"]
+  }
+}
