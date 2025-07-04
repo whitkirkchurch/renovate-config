@@ -14,7 +14,8 @@
   "timezone": "Europe/London",
   "platformAutomerge": true,
   "minimumReleaseAge": "2 days",
-  {
+  "packageRules": [
+    {
       "matchPackageNames": ["churchsuite"],
       "automerge": true
     }
