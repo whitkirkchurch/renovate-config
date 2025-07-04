@@ -19,7 +19,7 @@
     {
       "automerge": true,
       "matchPackageNames": [
-        "churchsuite"
+        "https://github.com/whitkirkchurch/churchsuite-utilities.git"
       ]
     }
   ],
