@@ -11,18 +11,26 @@
     ":enablePreCommit",
     ":maintainLockFilesWeekly"
   ],
-  "timezone": "Europe/London",
-  "platformAutomerge": true,
+  "labels": [
+    "dependencies"
+  ],
   "minimumReleaseAge": "2 days",
   "packageRules": [
     {
-      "matchPackageNames": ["churchsuite"],
-      "matchDatasources": ["git"],
-      "automerge": true
+      "automerge": true,
+      "matchDatasources": [
+        "git"
+      ],
+      "matchPackageNames": [
+        "churchsuite"
+      ]
     }
   ],
-  "labels": ["dependencies"],
+  "platformAutomerge": true,
+  "timezone": "Europe/London",
   "vulnerabilityAlerts": {
-    "addLabels": ["security"]
+    "addLabels": [
+      "security"
+    ]
   }
 }
