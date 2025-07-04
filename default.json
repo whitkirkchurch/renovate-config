@@ -17,6 +17,7 @@
   "packageRules": [
     {
       "matchPackageNames": ["churchsuite"],
+      "matchDatasources": ["git"],
       "automerge": true
     }
   ],
