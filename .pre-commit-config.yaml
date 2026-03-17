@@ -15,3 +15,8 @@ repos:
       - id: renovate-config-validator
         args: [--strict]
         files: 'default.json'
+
+  - repo: https://github.com/woodruffw/zizmor-pre-commit
+    rev: v1.22.0
+    hooks:
+      - id: zizmor
