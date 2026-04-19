@@ -19,7 +19,8 @@
       "automerge": true,
       "matchPackageNames": [
         "https://github.com/whitkirkchurch/churchsuite-utilities.git"
-      ]
+      ],
+      "minimumReleaseAge": null
     }
   ],
   "platformAutomerge": true,
