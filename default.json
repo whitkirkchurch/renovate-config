@@ -23,6 +23,7 @@
     }
   ],
   "platformAutomerge": true,
+  "rangeStrategy": "pin",
   "timezone": "Europe/London",
   "vulnerabilityAlerts": {
     "addLabels": [
